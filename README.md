@@ -1,8 +1,8 @@
-# My Codex Skills
+# My Research Codex Skills
 
-Practical Codex skills for AI agent paper reading and minimalist academic presentation decks.
+Practical Codex skills for research workflows, starting with AI agent paper reading and minimalist academic presentation decks.
 
-This repository currently includes two skills designed to work together:
+This repository collects my frequently used research-oriented Codex skills. It currently includes two skills designed to work together:
 
 - `agent-paper-reader`: turn AI agent papers into research judgment, not just summaries.
 - `minimal-paper-ppt`: turn paper-reading notes into clean, editable academic PowerPoint decks.
@@ -24,6 +24,8 @@ Star this repository if you want reusable Codex skills for:
 | --- | --- | --- |
 | `agent-paper-reader` | Detailed paper explanation, critique, comparison, reproduction thinking, and research extension ideas | Paper PDF, LaTeX, extracted text, notes, or a paper list |
 | `minimal-paper-ppt` | Minimal academic slide outlines or PPTX decks from paper-reading notes | Output from `agent-paper-reader`, paper notes, experiment ideas, or reproduction plans |
+
+More research skills may be added over time as reusable workflows become stable enough to share.
 
 ## Example Workflows
 
@@ -100,3 +102,7 @@ Issues and pull requests are welcome, especially for:
 - better multi-paper comparison structures;
 - academic PPT deck blueprints;
 - examples from real reading-group workflows.
+
+## License
+
+MIT License. See [LICENSE](LICENSE).
