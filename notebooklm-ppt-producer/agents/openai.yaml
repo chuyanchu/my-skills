@@ -1,0 +1,4 @@
+interface:
+  display_name: "NotebookLM PPT Producer"
+  short_description: "Plan and package NotebookLM slide generation workflows"
+  default_prompt: "Use $notebooklm-ppt-producer to turn my source materials into a batched NotebookLM PPT production plan."

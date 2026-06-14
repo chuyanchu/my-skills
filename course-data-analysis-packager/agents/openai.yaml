@@ -1,0 +1,4 @@
+interface:
+  display_name: "Course Data Analysis Packager"
+  short_description: "Build reproducible course data-analysis deliverables"
+  default_prompt: "Use $course-data-analysis-packager to turn my course dataset and topic into a complete analysis package."
