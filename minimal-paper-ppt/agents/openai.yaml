@@ -1,0 +1,7 @@
+interface:
+  display_name: "Minimal Paper PPT"
+  short_description: "Make minimalist paper-reading PPT decks"
+  brand_color: "#073B63"
+  default_prompt: "Use $minimal-paper-ppt to turn this $agent-paper-reader output into a minimalist Chinese academic PPT."
+policy:
+  allow_implicit_invocation: true

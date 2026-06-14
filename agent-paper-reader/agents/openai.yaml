@@ -1,0 +1,7 @@
+interface:
+  display_name: "Agent Paper Reader"
+  short_description: "Read and compare AI agent papers"
+  brand_color: "#2563EB"
+  default_prompt: "Use $agent-paper-reader to analyze or compare these AI agent papers in Chinese by problem, method, evidence, limitations, and follow-up research ideas."
+policy:
+  allow_implicit_invocation: true
