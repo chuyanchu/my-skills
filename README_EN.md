@@ -90,17 +90,37 @@ README、data dictionary、分析脚本、输出图表、报告模板和 PPT 提
 
 ## Installation
 
-Clone this repository and copy the skill folders into your Codex skills directory:
+Clone this repository, then copy only the skill folders you want into your Codex skills directory. You do not need to install every skill:
 
 ```bash
 git clone https://github.com/chuyanchu/my-skills.git
 mkdir -p ~/.codex/skills
+```
+
+Install one skill:
+
+```bash
+cp -R my-skills/agent-paper-reader ~/.codex/skills/
+```
+
+Install multiple skills:
+
+```bash
+cp -R my-skills/agent-paper-reader ~/.codex/skills/
+cp -R my-skills/minimal-paper-ppt ~/.codex/skills/
+```
+
+Install all skills:
+
+```bash
 cp -R my-skills/agent-paper-reader ~/.codex/skills/
 cp -R my-skills/minimal-paper-ppt ~/.codex/skills/
 cp -R my-skills/notebooklm-ppt-producer ~/.codex/skills/
 cp -R my-skills/course-data-analysis-packager ~/.codex/skills/
 cp -R my-skills/project-delivery-packager ~/.codex/skills/
 ```
+
+Available `<skill-name>` values are listed in the skill table above.
 
 Then restart Codex or reload your skills.
 

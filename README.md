@@ -90,17 +90,37 @@ README、data dictionary、分析脚本、输出图表、报告模板和 PPT 提
 
 ## 安装
 
-克隆仓库后，把需要的 skill 目录复制到你的 Codex skills 目录：
+克隆仓库后，只复制你需要的 skill 目录到 Codex skills 目录即可，不需要全部安装：
 
 ```bash
 git clone https://github.com/chuyanchu/my-skills.git
 mkdir -p ~/.codex/skills
+```
+
+安装单个 skill：
+
+```bash
+cp -R my-skills/agent-paper-reader ~/.codex/skills/
+```
+
+安装多个 skill：
+
+```bash
+cp -R my-skills/agent-paper-reader ~/.codex/skills/
+cp -R my-skills/minimal-paper-ppt ~/.codex/skills/
+```
+
+安装全部 skill：
+
+```bash
 cp -R my-skills/agent-paper-reader ~/.codex/skills/
 cp -R my-skills/minimal-paper-ppt ~/.codex/skills/
 cp -R my-skills/notebooklm-ppt-producer ~/.codex/skills/
 cp -R my-skills/course-data-analysis-packager ~/.codex/skills/
 cp -R my-skills/project-delivery-packager ~/.codex/skills/
 ```
+
+可用的 `<skill-name>` 见上方 Skill 列表。
 
 然后重启 Codex 或重新加载 skills。
 
