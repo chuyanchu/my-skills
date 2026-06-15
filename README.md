@@ -2,13 +2,13 @@
 
 Practical Codex skills for research, course projects, slide production, and project delivery workflows.
 
-This repository collects my frequently used Codex skills. It currently includes skills for paper reading, academic slides, NotebookLM PPT production, course data-analysis packages, and project handoff packages:
+This repository collects my frequently used Codex skills. It currently includes stable skills I have used in real work, plus experimental skills abstracted from recurring workflows:
 
-- `agent-paper-reader`: turn AI agent papers into research judgment, not just summaries.
-- `minimal-paper-ppt`: turn paper-reading notes into clean, editable academic PowerPoint decks.
-- `notebooklm-ppt-producer`: prepare source indexes, batch plans, and prompts for NotebookLM-style slide generation.
-- `course-data-analysis-packager`: build reproducible course data-analysis deliverables with data dictionaries, scripts, charts, reports, and PPT outlines.
-- `project-delivery-packager`: assemble README files, deployment docs, API notes, test commands, inventories, and acceptance checklists for handoff.
+- `agent-paper-reader` (Stable): turn AI agent papers into research judgment, not just summaries.
+- `minimal-paper-ppt` (Stable): turn paper-reading notes into clean, editable academic PowerPoint decks.
+- `notebooklm-ppt-producer` (Experimental): prepare source indexes, batch plans, and prompts for NotebookLM-style slide generation.
+- `course-data-analysis-packager` (Experimental): build reproducible course data-analysis deliverables with data dictionaries, scripts, charts, reports, and PPT outlines.
+- `project-delivery-packager` (Experimental): assemble README files, deployment docs, API notes, test commands, inventories, and acceptance checklists for handoff.
 
 The default output style is Chinese-first for Chinese research workflows, while preserving English paper titles, method names, benchmark names, and technical terms where that is clearer.
 
@@ -25,15 +25,15 @@ Star this repository if you want reusable Codex skills for:
 
 ## Included Skills
 
-| Skill | Use it for | Best input |
-| --- | --- | --- |
-| `agent-paper-reader` | Detailed paper explanation, critique, comparison, reproduction thinking, and research extension ideas | Paper PDF, LaTeX, extracted text, notes, or a paper list |
-| `minimal-paper-ppt` | Minimal academic slide outlines or PPTX decks from paper-reading notes | Output from `agent-paper-reader`, paper notes, experiment ideas, or reproduction plans |
-| `notebooklm-ppt-producer` | Batched NotebookLM/Gamma slide-generation prompts and production packages | Reports, lecture materials, policy notes, research notes, mixed source documents |
-| `course-data-analysis-packager` | Reproducible class-project data analysis packages | Course topic, assignment rubric, CSV/Excel files, notebooks, analysis scripts |
-| `project-delivery-packager` | Handoff-ready project delivery and acceptance packs | Existing repos, deployment folders, APIs, data pipelines, RAG/knowledge-base projects |
+| Skill | Status | Use it for | Best input |
+| --- | --- | --- | --- |
+| `agent-paper-reader` | Stable | Detailed paper explanation, critique, comparison, reproduction thinking, and research extension ideas | Paper PDF, LaTeX, extracted text, notes, or a paper list |
+| `minimal-paper-ppt` | Stable | Minimal academic slide outlines or PPTX decks from paper-reading notes | Output from `agent-paper-reader`, paper notes, experiment ideas, or reproduction plans |
+| `notebooklm-ppt-producer` | Experimental | Batched NotebookLM/Gamma slide-generation prompts and production packages | Reports, lecture materials, policy notes, research notes, mixed source documents |
+| `course-data-analysis-packager` | Experimental | Reproducible class-project data analysis packages | Course topic, assignment rubric, CSV/Excel files, notebooks, analysis scripts |
+| `project-delivery-packager` | Experimental | Handoff-ready project delivery and acceptance packs | Existing repos, deployment folders, APIs, data pipelines, RAG/knowledge-base projects |
 
-More skills may be added over time as reusable workflows become stable enough to share.
+Experimental skills should be treated as beta workflows: use them for planning or a small first pass, then refine them after real use.
 
 ## Example Workflows
 

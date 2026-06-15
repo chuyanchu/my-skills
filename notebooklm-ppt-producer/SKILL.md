@@ -1,11 +1,13 @@
 ---
 name: notebooklm-ppt-producer
-description: Use when planning, writing, or packaging PowerPoint/slide-deck production workflows that rely on NotebookLM, Gamma, or another slide generator from source materials. Best for turning long reports, course materials, lecture notes, industry research, policy materials, paper notes, or mixed documents into batched slide prompts, upload packages, page-level outlines, generation batches, visual style instructions, and post-generation merge/review checklists.
+description: Experimental skill for planning, writing, or packaging PowerPoint/slide-deck production workflows that rely on NotebookLM, Gamma, or another slide generator from source materials. Use when turning long reports, course materials, lecture notes, industry research, policy materials, paper notes, or mixed documents into batched slide prompts, upload packages, page-level outlines, generation batches, visual style instructions, and post-generation merge/review checklists.
 ---
 
 # NotebookLM PPT Producer
 
 Use this skill to turn source materials into a controlled slide-production package for NotebookLM-style tools. The goal is not only to write prompts, but to keep the deck structure, batch boundaries, source mapping, visual style, and QA loop explicit.
+
+Status: experimental. For the first real use on a new deck type, produce a plan or prompt package first and ask for confirmation before creating many files or rewriting an existing deck workflow.
 
 ## Core Workflow
 

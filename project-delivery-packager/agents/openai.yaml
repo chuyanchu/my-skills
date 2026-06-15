@@ -1,4 +1,4 @@
 interface:
   display_name: "Project Delivery Packager"
-  short_description: "Assemble deployable project handoff and acceptance packs"
+  short_description: "Experimental project handoff packager"
   default_prompt: "Use $project-delivery-packager to organize this project into a clear delivery package."

@@ -1,11 +1,13 @@
 ---
 name: project-delivery-packager
-description: Use when preparing, organizing, or reviewing a software, data, AI, RAG, knowledge-base, API, deployment, client handoff, acceptance, or internal project delivery package. Best for producing README files, deployment steps, API docs, database/schema notes, test command lists, acceptance checklists, delivery inventories, version notes, demo scripts, troubleshooting guides, and sanitized handoff materials.
+description: Experimental skill for preparing, organizing, or reviewing a software, data, AI, RAG, knowledge-base, API, deployment, client handoff, acceptance, or internal project delivery package. Use for producing README files, deployment steps, API docs, database/schema notes, test command lists, acceptance checklists, delivery inventories, version notes, demo scripts, troubleshooting guides, and sanitized handoff materials.
 ---
 
 # Project Delivery Packager
 
 Use this skill to turn a working project into a handoff-ready delivery package. The package should help another person deploy, test, understand, accept, and maintain the system without relying on private chat history.
+
+Status: experimental. For the first real use on a new project type, produce a delivery plan or audit first and ask for confirmation before restructuring files, creating many docs, or packaging for external sharing.
 
 ## Core Workflow
 

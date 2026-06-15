@@ -1,11 +1,13 @@
 ---
 name: course-data-analysis-packager
-description: Use when creating, organizing, or reviewing a reproducible course or class-project data analysis package from datasets, assignment requirements, rubrics, research questions, scripts, notebooks, CSV/Excel files, charts, reports, and slide outlines. Best for student/course deliverables that need a clean folder structure, data dictionary, analysis scripts, visual outputs, report template, PPT outline, README, execution commands, and quality checks.
+description: Experimental skill for creating, organizing, or reviewing a reproducible course or class-project data analysis package from datasets, assignment requirements, rubrics, research questions, scripts, notebooks, CSV/Excel files, charts, reports, and slide outlines. Use for student/course deliverables that need a clean folder structure, data dictionary, analysis scripts, visual outputs, report template, PPT outline, README, execution commands, and quality checks.
 ---
 
 # Course Data Analysis Packager
 
 Use this skill to turn a course topic and dataset into a complete, reproducible analysis deliverable. The expected result is a folder that another student, teacher, or teammate can understand, run, and present.
+
+Status: experimental. For the first real use on a new course assignment type, produce a package plan first and ask for confirmation before creating many files, moving data, or rewriting an existing project.
 
 ## Core Workflow
 
