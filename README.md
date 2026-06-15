@@ -1,43 +1,45 @@
-# My Codex Skills
+# 我的 Codex Skills
 
-Practical Codex skills for research, course projects, slide production, and project delivery workflows.
+[English README](README_EN.md)
 
-This repository collects my frequently used Codex skills. It currently includes stable skills I have used in real work, plus experimental skills abstracted from recurring workflows:
+这是一个用于沉淀个人高频工作流的 Codex skills 仓库，覆盖科研阅读、课程项目、PPT 生产和项目交付。
 
-- `agent-paper-reader` (Stable): turn AI agent papers into research judgment, not just summaries.
-- `minimal-paper-ppt` (Stable): turn paper-reading notes into clean, editable academic PowerPoint decks.
-- `notebooklm-ppt-producer` (Experimental): prepare source indexes, batch plans, and prompts for NotebookLM-style slide generation.
-- `course-data-analysis-packager` (Experimental): build reproducible course data-analysis deliverables with data dictionaries, scripts, charts, reports, and PPT outlines.
-- `project-delivery-packager` (Experimental): assemble README files, deployment docs, API notes, test commands, inventories, and acceptance checklists for handoff.
+当前包含两类 skill：一类是我已经真实使用过的稳定 skill，另一类是从历史重复流程里抽象出来、还需要真实任务继续打磨的实验性 skill。
 
-The default output style is Chinese-first for Chinese research workflows, while preserving English paper titles, method names, benchmark names, and technical terms where that is clearer.
+- `agent-paper-reader`（Stable）：把 AI agent 论文读成研究判断，而不是普通摘要。
+- `minimal-paper-ppt`（Stable）：把论文阅读笔记整理成干净、可编辑的极简学术 PPT。
+- `notebooklm-ppt-producer`（Experimental）：为 NotebookLM/Gamma 这类工具准备资料索引、批次规划和分批生成 prompt。
+- `course-data-analysis-packager`（Experimental）：为课程数据分析项目生成可复现交付包，包括数据字典、脚本、图表、报告模板和 PPT 提纲。
+- `project-delivery-packager`（Experimental）：为项目交付整理 README、部署文档、API 说明、测试命令、交付清单和验收 checklist。
 
-## Why Star This Repo
+默认输出风格偏中文科研/课程工作流；论文标题、方法名、benchmark、数据集、技术术语等保留英文会更清楚时，不强行翻译。
 
-Star this repository if you want reusable Codex skills for:
+## 为什么值得 Star
 
-- reading AI agent, LLM agent, tool-use, planning, memory, multi-agent, RAG-agent, web-agent, GUI-agent, coding-agent, or agent benchmark papers;
-- extracting the actual problem framing, method mechanism, evidence quality, limitations, and follow-up research ideas;
-- turning paper-reading notes into concise, editable, white-background academic PPTX decks;
-- producing structured NotebookLM/Gamma PPT prompts from messy source materials;
-- packaging course analysis projects so they are reproducible and presentation-ready;
-- preparing client, class, or internal project handoff materials without rebuilding docs from scratch.
+如果你也想把重复工作流固化成 Codex skill，这个仓库可以直接复用或改造：
 
-## Included Skills
+- 阅读 AI agent、LLM agent、tool-use、planning、memory、multi-agent、RAG-agent、web-agent、GUI-agent、coding-agent 或 agent benchmark 论文；
+- 从论文里提取问题定义、方法机制、证据质量、局限和后续研究方向；
+- 把论文阅读笔记整理成简洁、白底、可编辑的学术 PPT；
+- 把杂乱资料整理成 NotebookLM/Gamma 可用的分批 PPT 生成 prompt；
+- 把课程数据分析项目整理成可复现、可展示、可交付的结构；
+- 为客户、课程或内部项目补齐交付文档，避免每次从零写 README、部署说明和验收清单。
 
-| Skill | Status | Use it for | Best input |
+## Skill 列表
+
+| Skill | 状态 | 用途 | 最适合的输入 |
 | --- | --- | --- | --- |
-| `agent-paper-reader` | Stable | Detailed paper explanation, critique, comparison, reproduction thinking, and research extension ideas | Paper PDF, LaTeX, extracted text, notes, or a paper list |
-| `minimal-paper-ppt` | Stable | Minimal academic slide outlines or PPTX decks from paper-reading notes | Output from `agent-paper-reader`, paper notes, experiment ideas, or reproduction plans |
-| `notebooklm-ppt-producer` | Experimental | Batched NotebookLM/Gamma slide-generation prompts and production packages | Reports, lecture materials, policy notes, research notes, mixed source documents |
-| `course-data-analysis-packager` | Experimental | Reproducible class-project data analysis packages | Course topic, assignment rubric, CSV/Excel files, notebooks, analysis scripts |
-| `project-delivery-packager` | Experimental | Handoff-ready project delivery and acceptance packs | Existing repos, deployment folders, APIs, data pipelines, RAG/knowledge-base projects |
+| `agent-paper-reader` | Stable | 论文精读、批判、对比、复现思考和研究扩展 | Paper PDF、LaTeX、提取文本、阅读笔记、论文列表 |
+| `minimal-paper-ppt` | Stable | 从论文笔记生成极简学术 PPT 大纲或 PPTX | `agent-paper-reader` 输出、论文笔记、实验想法、复现计划 |
+| `notebooklm-ppt-producer` | Experimental | NotebookLM/Gamma 分批生成 PPT 的 prompt package | 行业报告、课程材料、政策材料、研究笔记、混合资料 |
+| `course-data-analysis-packager` | Experimental | 课程/小组作业的数据分析交付包 | 课程题目、作业 rubric、CSV/Excel、notebook、分析脚本 |
+| `project-delivery-packager` | Experimental | 项目交付、部署、验收和 handoff 材料 | 现有 repo、部署目录、API、数据管线、RAG/知识库项目 |
 
-Experimental skills should be treated as beta workflows: use them for planning or a small first pass, then refine them after real use.
+实验性 skill 应按 beta 工作流使用：先让它生成 plan、audit 或小范围初稿，再在真实任务中逐步修正。
 
-## Example Workflows
+## 示例用法
 
-### 1. Read an AI Agent Paper
+### 1. 阅读 AI Agent 论文
 
 ```text
 用 agent-paper-reader 详细解读这篇 agent benchmark 论文，重点看：
@@ -48,7 +50,7 @@ Experimental skills should be treated as beta workflows: use them for planning o
 5. 我们可以基于它做什么新实验
 ```
 
-### 2. Compare Multiple Papers
+### 2. 对比多篇论文
 
 ```text
 用 agent-paper-reader 比较这 4 篇 tool-use agent 论文。
@@ -56,7 +58,7 @@ Experimental skills should be treated as beta workflows: use them for planning o
 limitations、可复现性和后续研究机会组织。
 ```
 
-### 3. Turn Notes Into Slides
+### 3. 把论文笔记转成 PPT
 
 ```text
 用 minimal-paper-ppt 把上面的论文解读整理成 12 页中文组会 PPT。
@@ -64,7 +66,7 @@ limitations、可复现性和后续研究机会组织。
 不要装饰性图形，不要拥挤。
 ```
 
-### 4. Produce NotebookLM PPT Batches
+### 4. 生成 NotebookLM PPT 分批 Prompt
 
 ```text
 用 notebooklm-ppt-producer 把这些行业报告和课程材料整理成 60 页 PPT 的
@@ -72,23 +74,23 @@ NotebookLM 分批生成提示词。请给出上传材料索引、故事主线、
 每批 prompt 和合并检查清单。
 ```
 
-### 5. Package A Course Data Project
+### 5. 整理课程数据分析交付包
 
 ```text
 用 course-data-analysis-packager 把这个课程数据集整理成可交付包：
 README、data dictionary、分析脚本、输出图表、报告模板和 PPT 提纲。
 ```
 
-### 6. Prepare A Project Delivery Package
+### 6. 准备项目交付包
 
 ```text
 用 project-delivery-packager 检查这个项目是否可以交付，
 补齐 README、部署步骤、API 文档、测试命令、交付清单和验收 checklist。
 ```
 
-## Installation
+## 安装
 
-Clone this repository and copy the skill folders into your Codex skills directory:
+克隆仓库后，把需要的 skill 目录复制到你的 Codex skills 目录：
 
 ```bash
 git clone https://github.com/chuyanchu/my-skills.git
@@ -100,9 +102,9 @@ cp -R my-skills/course-data-analysis-packager ~/.codex/skills/
 cp -R my-skills/project-delivery-packager ~/.codex/skills/
 ```
 
-Then restart Codex or reload your skills.
+然后重启 Codex 或重新加载 skills。
 
-## Repository Layout
+## 仓库结构
 
 ```text
 agent-paper-reader/
@@ -131,29 +133,38 @@ project-delivery-packager/
   references/
 ```
 
-Each skill keeps the main behavior in `SKILL.md` and task-specific guidance in `references/`.
+每个 skill 的主流程放在 `SKILL.md`，更细的模板、检查清单和参考材料放在 `references/`。
 
-## Design Principles
+## 维护约定
 
-- Research judgment over generic summarization.
-- Mechanism-first explanations for agent papers.
-- Evidence-aware reading: claims, experiments, ablations, and what remains unproven.
-- Chinese academic workflow support without losing precise English technical terms.
-- Minimal slides that remain editable and readable in real group meetings.
-- Reproducible packages with explicit inputs, outputs, commands, and QA.
-- Privacy-aware delivery workflows that avoid leaking secrets or client data.
+新增或修改 skill 时，同一个 commit 里同步更新：
 
-## Contributing
+- `README.md`：中文说明
+- `README_EN.md`：英文说明
 
-Issues and pull requests are welcome, especially for:
+实验性 skill 只有在真实任务中使用并确认流程稳定后，才应改为 `Stable`。
 
-- new agent paper-reading templates;
-- stronger evaluation and reproducibility checklists;
-- better multi-paper comparison structures;
-- academic PPT deck blueprints;
-- NotebookLM/Gamma slide-production workflows;
-- course data-analysis package templates;
-- project delivery and acceptance checklists.
+## 设计原则
+
+- 重视研究判断，而不是泛泛总结。
+- 解释 agent 论文时优先拆 mechanism 和 agent loop。
+- 关注证据边界：claim、实验、消融、未证明内容要分清。
+- 支持中文科研/课程工作流，同时保留必要英文技术术语。
+- PPT 保持可编辑、可讨论、可复用，不追求装饰性。
+- 交付包要有清晰的输入、输出、命令和 QA。
+- 对外分享时注意脱敏，避免泄露密钥、客户数据或私有路径。
+
+## 贡献
+
+欢迎提 issue 或 pull request，尤其是：
+
+- 新的 agent 论文阅读模板；
+- 更强的评测和复现检查清单；
+- 多论文对比结构；
+- 学术 PPT deck blueprint；
+- NotebookLM/Gamma PPT 生产流程；
+- 课程数据分析交付包模板；
+- 项目交付和验收 checklist。
 
 ## License
 
